@@ -257,7 +257,7 @@ body{
     
 }
 .botonview .prevAll0{
-    grid-row: 1 /3;
+    display: flex;
     align-self: center;
     justify-self: auto;
 }
@@ -271,7 +271,7 @@ body{
 
 
 .botonview .viewAll0{
-    grid-row: 1 /3;
+    
     align-self: center;
     justify-self: center;
     
@@ -287,10 +287,12 @@ body{
     padding-left: 3rem;
     padding-right: 3rem;
     font-size: 1em;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .botonview .nextAll0{
-    grid-row: 1 /3;
+    display: flex;
     align-self: center;
     justify-self: end;
     
