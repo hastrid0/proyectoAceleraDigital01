@@ -56,9 +56,7 @@ body{
     grid-template-rows:   0.5fr 1fr 1fr 1fr 1fr;
     background-image: url(/img/fondoGrande.png);
     background-size: contain;
-    background-repeat: round;
-    
-    
+    background-repeat: round;    
 }
 .inicio .login{
     display: grid;
